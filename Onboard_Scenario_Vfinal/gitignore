@@ -1,0 +1,58 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Model weights
+# =========================
+*.onnx
+*.pt
+*.pth
+
+# =========================
+# Logs / runtime
+# =========================
+*.log
+
+# =========================
+# DATA FOLDER (IMPORTANT)
+# =========================
+
+# Ignore all generated run outputs
+data/inference_output/
+data/predictions/
+data/metrics/
+
+# Keep runs metadata if needed
+!data/runs.json
+
+# =========================
+# IMAGES
+# =========================
+
+# Ignore all images by default
+images/*
+
+# But keep a sample or test image
+!images/test.jpg
+
+# (Optional) keep small calibration set
+# !images/calib_1297.jpg
+
+# =========================
+# Temp / misc
+# =========================
+structure.txt
+*.csv
+
+# =========================
+# OS / Editor
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
