@@ -8,16 +8,28 @@ we are comparing latency(preprocess+transmission+infernece) in three different s
 - Edge Scenario- rasp pi 3 as client and laptop as server
 - Cloud Scenario- rasp pi 3 as client and gpu laptop as server
 - dataset: Visdrone
-
+  
 
 # Software Used
 
-- Python  
-- YOLOv8n (Ultralytics)  
-- OpenCV  
-- NumPy  
-- PyTorch  
-- Flask / Socket Programming (for communication between client and server)  
+- **Python** – Used to develop the entire project and integrate all components of the human detection system.
+
+- **YOLOv8 (Ultralytics)** – Used for real-time human detection in aerial images captured during search and rescue operations.
+
+- **PyTorch** – Used as the deep learning framework to run and support the YOLOv8 model for inference.
+
+- **OpenCV** – Used for image processing, video/frame handling, and drawing bounding boxes around detected humans.
+
+- **NumPy** – Used for efficient numerical computations and handling image data as arrays.
+
+- **PyYAML** – Used for reading and managing configuration files for model and system settings.
+
+- **Requests** – Used for communication between client (Raspberry Pi) and server (edge/cloud) using HTTP requests.
+
+- **TQDM** – Used to display progress bars during dataset processing and evaluation runs.
+
+- **PSUtil** – Used to monitor system performance such as CPU usage, memory usage, and resource consumption during experiments.
+  
 - Matplotlib (for graphs and analysis)
 - tcp protocol
 - used yolo pretrained model- we trained only for detecting humans
