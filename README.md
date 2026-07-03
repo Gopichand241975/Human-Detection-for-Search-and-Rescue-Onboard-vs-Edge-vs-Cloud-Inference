@@ -10,6 +10,26 @@ we are comparing latency(preprocess+transmission+infernece) in three different s
 - dataset: Visdrone
 
 
+# Software Used
+
+- Python  
+- YOLOv8n (Ultralytics)  
+- OpenCV  
+- NumPy  
+- PyTorch  
+- Flask / Socket Programming (for communication between client and server)  
+- Matplotlib (for graphs and analysis)
+- tcp protocol
+
+
+# Hardware Used
+
+- Raspberry Pi 3 Model B+ (Client / Onboard processing unit)  
+- Laptop (Edge server)  
+- GPU-enabled Laptop (Cloud server for accelerated inference)  
+- usbpowermeter - for calculating power
+
+
 ## Observations
 - Onboard inference has minimal communication delay but limited computational power.
 - Cloud inference has high computational capability but suffers from network latency.
