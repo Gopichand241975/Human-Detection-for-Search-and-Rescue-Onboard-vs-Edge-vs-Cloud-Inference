@@ -4,10 +4,10 @@ This project focuses on human detection for Search and Rescue (SAR) operations u
 # what we are comparing:
 we are comparing latency(preprocess+transmission+infernece) in three different scenarios
 
-Onboard Scenario- rasp pi 3 as client snd server
-Edge Scenario- rasp pi 3 as client and laptop as server
-Cloud Scenario- rasp pi 3 as client and gpu laptop as server
-dataset: Visdrone
+- Onboard Scenario- rasp pi 3 as client snd server
+- Edge Scenario- rasp pi 3 as client and laptop as server
+- Cloud Scenario- rasp pi 3 as client and gpu laptop as server
+- dataset: Visdrone
 
 
 ## Observations
