@@ -20,6 +20,7 @@ we are comparing latency(preprocess+transmission+infernece) in three different s
 - Flask / Socket Programming (for communication between client and server)  
 - Matplotlib (for graphs and analysis)
 - tcp protocol
+- used yolo pretrained model- we trained only for detecting humans
 
 
 # Hardware Used
