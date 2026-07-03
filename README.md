@@ -30,9 +30,11 @@ we are comparing latency(preprocess+transmission+infernece) in three different s
 
 - **PSUtil** – Used to monitor system performance such as CPU usage, memory usage, and resource consumption during experiments.
   
-- Matplotlib (for graphs and analysis)
-- tcp protocol
-- used yolo pretrained model- we trained only for detecting humans
+- **Matplotlib** – Used for generating graphs and analyzing results such as latency comparison and performance visualization.
+
+- **TCP Protocol** – Used for communication between client (Raspberry Pi) and server for transmitting images and receiving inference results.
+
+- **YOLOv8n Pretrained Model** – A pretrained object detection model was used and fine-tuned and trained only for detecting humans in aerial images.
 
 
 # Hardware Used
