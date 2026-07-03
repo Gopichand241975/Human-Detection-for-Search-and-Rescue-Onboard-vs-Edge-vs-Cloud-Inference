@@ -6,21 +6,24 @@ Edge Scenario- rasp pi 3 as client and laptop as server
 Cloud Scenario- rasp pi 3 as client and gpu laptop as server
 dataset: Visdrone
 
-#Observations
+
+## Observations
 - Onboard inference has minimal communication delay but limited computational power.
 - Cloud inference has high computational capability but suffers from network latency.
 - Edge inference achieves the best trade-off between computation and communication, resulting in the most efficient performance in this study.
 
 - Edge inference achieves the best latency performance compared to both onboard and cloud scenarios in this comparison.
   
-## Inference Output
 
-![Inference Output](Output/inference_output.jpg)
+
+## Inference Output
+<img src="Output/inference_output.jpg" width="700" height="400" alt="Inference Output">
 
 ## Latency Comparison
-
-![Latency Comparison of Three Scenarios](Output/latency%20comparision%20of%20three%20scenarios.jpg)
+<img src="Output/latency%20comparision%20of%20three%20scenarios.jpg" width="700" height="400" alt="Latency Comparison of Three Scenarios">
 
 ## Average Latency Breakdown
+<img src="Output/average%20latency%20breakdown%20by%20scenario.jpg" width="700" height="400" alt="Average Latency Breakdown by Scenario">
 
-![Average Latency Breakdown by Scenario](Output/average%20latency%20breakdown%20by%20scenario.jpg)
+## System Architecture
+<img src="Output/proposed%20system%20architecture.png" width="700" height="400" alt="Proposed System Architecture">
